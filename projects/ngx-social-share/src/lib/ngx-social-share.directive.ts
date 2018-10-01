@@ -20,6 +20,9 @@ export class SocialShareDirective {
       case 'tw':
         window.open(`https://twitter.com/home?status=${url}`);
         break;
+      case 'in':
+        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`);
+        break;
       default:
         break;
     }
