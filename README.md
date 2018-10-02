@@ -30,6 +30,7 @@ Add `[socialShare]="label_here"` to any of your elements or components
   <div [socialShare]="'fb'">Share via Facebook</div>
   <div [socialShare]="'tw'">Share via Twitter</div>
   <div [socialShare]="'gp'">Share via Google+</div>
+  <div [socialShare]="'in'">Share via LinkedIn</div>
 </div>
 ```
 On click this element will share `current opened` page to social
@@ -38,3 +39,4 @@ On click this element will share `current opened` page to social
 - 'fb' - Facebook
 - 'tw' - Twitter
 - 'gp' - Google+
+- 'in' - LinkedIn
