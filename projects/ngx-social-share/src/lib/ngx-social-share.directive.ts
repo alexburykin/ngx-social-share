@@ -26,6 +26,9 @@ export class SocialShareDirective {
       case 'tr':
         window.open(`https://www.tumblr.com/widgets/share/tool?canonicalUrl=${url}`);
         break;
+      case 'dg':
+        window.open(`http://digg.com/submit?url=${url}`);
+        break;
       default:
         break;
     }
