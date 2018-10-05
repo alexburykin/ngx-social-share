@@ -23,6 +23,9 @@ export class SocialShareDirective {
       case 'in':
         window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`);
         break;
+      case 'tr':
+        window.open(`https://www.tumblr.com/widgets/share/tool?canonicalUrl=${url}`);
+        break;
       default:
         break;
     }
