@@ -27,11 +27,12 @@ import { NgxSocialShareModule } from 'ngx-social-share';
 Add `[socialShare]="label_here"` to any of your elements or components
 ```html
 <div>
-  <div [socialShare]="'fb'">Share via Facebook</div>
-  <div [socialShare]="'tw'">Share via Twitter</div>
-  <div [socialShare]="'gp'">Share via Google+</div>
-  <div [socialShare]="'in'">Share via LinkedIn</div>
-  <div [socialShare]="'tr'">Share via Tumblr</div>
+  <div [socialShare]="'fb'">Facebook</div>
+  <div [socialShare]="'tw'">Twitter</div>
+  <div [socialShare]="'in'">Linkdedin</div>
+  <div [socialShare]="'tr'">Tumblr</div>
+  <div [socialShare]="'rd'">Reddit</div>
+  <div [socialShare]="'pn'">Pinterest</div>
 </div>
 ```
 On click this element will share `current opened` page to social
@@ -39,6 +40,7 @@ On click this element will share `current opened` page to social
 ### Current Labels
 - 'fb' - Facebook
 - 'tw' - Twitter
-- 'gp' - Google+
 - 'in' - LinkedIn
 - 'tr' - Tumblr
+- 'rd' - Reddit
+- 'pn' - Pinterest

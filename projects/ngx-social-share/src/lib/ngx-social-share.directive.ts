@@ -14,9 +14,6 @@ export class SocialShareDirective {
       case 'fb':
         window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
         break;
-      case 'gp':
-        window.open(`https://plus.google.com/share?url=${url}`);
-        break;
       case 'tw':
         window.open(`https://twitter.com/home?status=${url}`);
         break;
@@ -25,6 +22,12 @@ export class SocialShareDirective {
         break;
       case 'tr':
         window.open(`https://www.tumblr.com/widgets/share/tool?canonicalUrl=${url}`);
+        break;
+      case 'rd':
+        window.open(`https://reddit.com/submit?url=${url}`);
+        break;
+      case 'pn':
+        window.open(`https://www.pinterest.com/pin/find/?url=${url}`);
         break;
       default:
         break;
