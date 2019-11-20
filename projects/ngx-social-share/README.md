@@ -35,7 +35,6 @@ Add `[socialShare]="label_here"` to any of your elements or components
   <div [socialShare]="'tr'">Tumblr</div>
   <div [socialShare]="'rd'">Reddit</div>
   <div [socialShare]="'pn'">Pinterest</div>
-  <div [socialShare]="'dg'">Share via Digg</div>
 </div>
 ```
 On click this element will share `current opened` page to social
@@ -45,6 +44,5 @@ On click this element will share `current opened` page to social
 - 'tw' - Twitter
 - 'in' - LinkedIn
 - 'tr' - Tumblr
-- 'dg' - Digg
 - 'rd' - Reddit
 - 'pn' - Pinterest

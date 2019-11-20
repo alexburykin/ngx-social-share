@@ -1,8 +1,34 @@
 {
   "name": "ngx-social-share",
-  "version": "0.0.1",
+  "email": "burykindev@gmail.com",
+  "description": "Angular social share - is simple directive for sharing your pages via facebook, linkedin and other",
+  "version": "1.0.0",
   "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    "@angular/core": "^6.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/alexburykin/ngx-social-share#description",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexburykin/ngx-social-share"
+  },
+  "keywords": [
+    "angular",
+    "social",
+    "sharing"
+  ],
+  "author": "Alex Burykin <burykindev@gmail.com> (https://alexburykin.github.io/)",
+  "main": "bundles/ngx-social-share.umd.js",
+  "module": "fesm5/ngx-social-share.js",
+  "es2015": "fesm2015/ngx-social-share.js",
+  "esm5": "esm5/ngx-social-share.js",
+  "esm2015": "esm2015/ngx-social-share.js",
+  "fesm5": "fesm5/ngx-social-share.js",
+  "fesm2015": "fesm2015/ngx-social-share.js",
+  "typings": "ngx-social-share.d.ts",
+  "metadata": "ngx-social-share.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
   }
 }
